@@ -1,0 +1,27 @@
+{
+  "name": "<<Your package name>>",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "rm -rf ./dist && npm ci && npx tsc && npm publish --access=public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "<<Your repository url>>"
+  },
+  "author": "jimmy <jimmy@soomgo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "<<Your issue board page url>>"
+  },
+  "homepage": "<<Your repository readme page url>>",
+  "devDependencies": {
+    "typescript": "^4.5.2"
+  }
+}
