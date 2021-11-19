@@ -23,5 +23,13 @@
   "homepage": "<<Your repository readme page url>>",
   "devDependencies": {
     "typescript": "^4.5.2"
+  },
+  "peerDependencies": {
+    "eslint": ">= 7",
+    "@typescript-eslint/eslint-plugin": ">= 4.5.0",
+
+  },
+  "dependencies": {
+    "@typescript-eslint/parser": "^4.28.2"
   }
 }
