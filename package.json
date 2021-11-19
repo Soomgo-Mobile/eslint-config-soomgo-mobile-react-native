@@ -30,6 +30,7 @@
 
   },
   "dependencies": {
-    "@typescript-eslint/parser": "^4.28.2"
+    "@typescript-eslint/parser": "4.28.2",
+    "@react-native-community/eslint-config": "2.0.0"
   }
 }
