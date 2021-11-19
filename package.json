@@ -1,5 +1,5 @@
 {
-  "name": "<<Your package name>>",
+  "name": "@bravemobile/eslint-config-soomgo-mobile-react-native",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "<<Your repository url>>"
+    "url": "git+ssh://git@github.com:Soomgo-Mobile/eslint-config-soomgo-mobile-react-native.git"
   },
   "author": "jimmy <jimmy@soomgo.com>",
   "license": "MIT",
   "bugs": {
-    "url": "<<Your issue board page url>>"
+    "url": "https://github.com/Soomgo-Mobile/eslint-config-soomgo-mobile-react-native/issues"
   },
-  "homepage": "<<Your repository readme page url>>",
+  "homepage": "https://github.com/Soomgo-Mobile/eslint-config-soomgo-mobile-react-native",
   "devDependencies": {
     "typescript": "^4.5.2"
   },
